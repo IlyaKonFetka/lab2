@@ -1,0 +1,26 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+Pokemon <|-- Chatot
+Pokemon <|-- Electrike
+Pokemon <|-- NidoranM
+Electrike <|-- Manectric
+NidoranM <|-- Nidorino
+Nidorino <|-- Nidoking
+
+Move <|-- DamageMove
+DamageMove <|-- PhysicalMove
+DamageMove <|-- SpecialMove
+DamageMove <|-- StatusMove
+PhysicalMove <|-- Aerial_Ace
+PhysicalMove <|-- QuickAttack
+PhysicalMove <|-- FuryAttack
+SpecialMove <|-- Boomburst
+SpecialMove <|-- Overheat
+SpecialMove <|-- Blizzard
+SpecialMove <|-- Thunder
+SpecialMove <|-- Thunderbolt
+StatusMove <|-- Confide
+StatusMove <|-- FeatherDance
+
+@enduml
